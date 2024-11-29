@@ -1,7 +1,7 @@
 Project Title: Titanic Survival Prediction
 Project Description:
 This project predicts the survival of passengers aboard the Titanic using machine learning techniques. The dataset is sourced from the Kaggle Titanic competition, which is a beginner-friendly challenge in predictive analytics. The goal is to predict whether a passenger survived or not based on features such as age, gender, ticket class, and more.
--> Key Features:
+Key Features:
 1.	Dataset: Data is taken from Kaggle's Titanic competition, including training (train.csv) and test (test.csv) datasets.
 2.	Objective: Create a machine learning model to predict passenger survival (binary classification: 1 for survived, 0 for deceased).
 3.	Pipeline:
@@ -9,7 +9,7 @@ o	Data preprocessing, including handling missing values, scaling numerical featu
 o	Model training using the Random Forest classifier.
 o	Hyperparameter tuning with GridSearchCV for improved accuracy.
 4.	Evaluation: Performance was evaluated using accuracy metrics on the validation set and submission to Kaggle for leaderboard scoring.
--> Workflow:
+Workflow:
 1.	Data Analysis and Visualization:
 o	Explored dataset features and relationships using pandas, Matplotlib, and Seaborn.
 o	Visualized key attributes like survival rates by gender, age, and ticket class.
